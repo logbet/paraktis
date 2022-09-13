@@ -1,0 +1,355 @@
+<style>
+  .SUBSCRIBE-BUTTON{
+    background-color: red;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.15s;
+    vertical-align: top;
+ 
+  }
+
+  .SUBSCRIBE-BUTTON:hover{
+    opacity: 0.59;
+  }
+
+  .SUBSCRIBE-BUTTON:Active{
+    opacity: 0.39;
+  }
+
+  .JOIN-BUTTON{
+    background-color: white;
+    color: rgb(0, 125, 197);
+    border-color: rgb(0, 125, 197);
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    margin-left: 2px;
+    border-radius: 3px;
+    vertical-align: top;
+    cursor:  pointer;
+    font-weight: bold;
+    transition: background-color 0.80s, color 0.80s;
+  }
+
+  .JOIN-BUTTON:hover{
+    background-color: rgb(0, 125, 197);
+    color: white;
+
+  }
+
+  .JOIN-BUTTON:Active{
+    opacity: 0.6;
+  }
+
+  .TWEET-BUTTON{
+    background-color: rgb(0, 125, 197);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 95px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:  pointer;
+    margin-left: 0px;
+    transition: box-shadow 0.70s;
+  }
+  .TWEET-BUTTON:hover{
+    box-shadow: -5px -5px 8px rgb(152, 234, 255);
+  }
+
+  .TWEET-BUTTON:active{
+    opacity: 0.6;
+  }
+
+  .UBER-BUTTON{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: none;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor:  pointer;
+    transition: opacity 0.30s, background-color 0.30s, color 0.20s, border-color 0.20s;
+  }
+
+  .UBER-BUTTON:hover{
+    opacity: 0.9;
+  }
+
+  .UBER-BUTTON:Active{
+    background-color:rgb(111, 0, 214);
+    color: black;
+    border-color: rgb(240, 162, 255);
+  }
+
+  .AMAZON-BUTTON{
+    background-color: rgb(255, 238, 88);
+    color: black;
+    border: none;
+    font-weight: bold;
+    border-radius: 100px;
+    height: 50px;
+    width: 200px;
+    cursor:  pointer;
+    transition: background-color 0.40s, color 0.40s;
+  }
+
+  .AMAZON-BUTTON:hover{
+    background-color: rgba(231, 210, 15, 0.781);
+  }
+
+  .AMAZON-BUTTON:Active{
+    background-color: rgba(180, 164, 14, 0.781);
+    color: rgba(0, 0, 0, 0.774);
+  }
+
+
+
+
+
+  .GITHUB-BUTTON{
+    background-color: rgb(102, 197, 118);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    cursor:  pointer;
+    transition: background-color 0.30s;
+  }
+
+  .GITHUB-BUTTON:active{
+    background-color: rgb(51, 83, 0);
+  }
+
+  .BOOTSTRAP-BUTTON{
+    background-color: rgb(134, 9, 192);
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    cursor:  pointer;
+  }
+
+  .BOOTSTRAP-BUTTON:hover{
+    opacity: 0.7;
+  }
+
+  .BOOTSTRAP-BUTTON:active{
+    background-color: rgb(71, 7, 219);
+  }
+
+  .BOOTSTRAPD-BUTTON{
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    border-color: gray;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    cursor:  pointer;
+    transition: background-color 0.30s, color 0.30s, border 0.30s;
+  }
+
+  .BOOTSTRAPD-BUTTON:hover{
+    background-color: rgba(134, 9, 192, 0.055);
+  }
+
+  .BOOTSTRAPD-BUTTON:active{
+    background-color: rgb(71, 7, 219);
+    color: white;
+    border: none;
+  }
+
+  .LINKEDLN-BUTTON{
+    background-color: rgb(15, 97, 165);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 300px;
+    height: 35px;
+    width: 230px;
+    cursor:  pointer;
+    transition: opacity .30s, background-color 0.30s;
+  }
+
+  .LINKEDLN-BUTTON:hover{
+    opacity: 0.8;
+  }
+
+  .LINKEDLN-BUTTON:active{
+    background-color: #1e3a4b;
+  }
+  
+  .LINKEDLNS-BUTTON{
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 114, 226);
+    border-color: rgb(15, 114, 226);
+    font-weight: bold;
+    margin-left: 50px;
+    border-radius: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor:  pointer;
+    transition: background-color 0.30s, color 0.30s, border 0.30s;
+  }
+
+  .LINKEDLNS-BUTTON:hover{
+    background-color: rgba(0, 255, 255, 0.116);
+  }
+  
+  .LINKEDLNS-BUTTON:active{
+    background-color: rgb(0, 56, 56);
+    color: white;
+    border:none;
+  }
+
+  .Back{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: progress;
+  }
+
+  .Next{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .one{
+    margin-left: 5px;
+
+  }
+  .two{
+    margin-left: 5px;
+  }
+
+  .three{
+    margin-left: 5px;
+ }
+
+ .four{
+    margin-left: 5px;
+  }
+
+  .five{
+    margin-left: 5px;
+    margin-right:5px;
+  }
+  
+  .Stretch{ 
+  background-color: greenyellow;
+  color: black;
+  font-size:larger;
+  text-align:center;
+  border-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  letter-spacing: 0;
+  transition: padding-left 0.50s, padding-top 0.50s, text-align 0.50s, letter-spacing 0.50s, background-color 0.50s, font-size 0.50s, padding-right 0.50s, padding-bottom 0.50s;
+  }
+  .Stretch:hover{
+  background-color: rgb(130, 198, 238);
+  padding-right: 30px;
+  color: black;
+  font-size:large;
+  text-align:center;
+  cursor: pointer;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-top: 15px;
+  letter-spacing: 5px;
+  }
+
+
+
+
+</style>
+
+<button class="SUBSCRIBE-BUTTON">
+  SUBSCRIBE 
+</button>
+
+<button class="JOIN-BUTTON">
+  JOIN
+</button>
+
+<br><br>
+<button class="TWEET-BUTTON">
+  Tweet
+</button>
+
+<br><br>
+<button class="UBER-BUTTON">
+  Request now
+</button>
+
+<br><br>
+<button class="AMAZON-BUTTON">
+  Add to Cart
+</button>
+
+<br><br>
+<button class="GITHUB-BUTTON">
+  Sign up
+</button>
+
+<br><br>
+<button class="BOOTSTRAP-BUTTON">
+  Get started
+</button>
+<button class="BOOTSTRAPD-BUTTON">
+  Download
+</button>
+
+<br><br>
+<button class="LINKEDLN-BUTTON">
+  Apply on company website
+</button>
+<button class="LINKEDLNS-BUTTON">
+  Save
+</button>
+
+<br><br> 
+<button class="Back">
+Back
+</button>
+<a class="one" href="">
+  1
+</a>
+<a class="two" href="">
+  2
+</a>
+<a class="three" href="">
+  3
+</a>
+<a class="four" href="">
+  4
+</a>
+<a class="five" href="">
+  5
+</a>
+<button class="Next">
+  Next
+</button>
+<br><br>
+<button class="Stretch">
+  Stretch
+</button>
